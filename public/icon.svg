@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="VTracer">
+  <defs>
+    <linearGradient id="arrowGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#525252"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="vGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="#0a0a0a" stroke="#262626" stroke-width="4"/>
+
+  <!-- Raster: 3×4 pixel blocks -->
+  <g fill="#3b82f6">
+    <rect x="96" y="176" width="48" height="48" rx="8" opacity="0.4"/>
+    <rect x="152" y="176" width="48" height="48" rx="8" opacity="0.55"/>
+    <rect x="208" y="176" width="48" height="48" rx="8" opacity="0.7"/>
+    <rect x="96" y="232" width="48" height="48" rx="8" opacity="0.5"/>
+    <rect x="152" y="232" width="48" height="48" rx="8" opacity="0.75"/>
+    <rect x="208" y="232" width="48" height="48" rx="8" fill="#2563eb"/>
+    <rect x="96" y="288" width="48" height="48" rx="8" opacity="0.45"/>
+    <rect x="152" y="288" width="48" height="48" rx="8" opacity="0.65"/>
+    <rect x="208" y="288" width="48" height="48" rx="8" opacity="0.85"/>
+    <rect x="96" y="344" width="48" height="48" rx="8" opacity="0.35"/>
+    <rect x="152" y="344" width="48" height="48" rx="8" opacity="0.5"/>
+    <rect x="208" y="344" width="48" height="48" rx="8" opacity="0.6"/>
+  </g>
+
+  <!-- Transition -->
+  <path
+    d="M276 256h36l-12-20 40 20-40 20 12-20z"
+    fill="url(#arrowGrad)"
+  />
+
+  <!-- Vector V -->
+  <path
+    d="M332 172 L400 360 L468 172"
+    fill="none"
+    stroke="url(#vGrad)"
+    stroke-width="36"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Trace anchors -->
+  <circle cx="332" cy="172" r="16" fill="#2563eb"/>
+  <circle cx="400" cy="360" r="16" fill="#3b82f6"/>
+  <circle cx="468" cy="172" r="16" fill="#2563eb"/>
+</svg>
