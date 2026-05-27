@@ -5,6 +5,8 @@ VTracer App is a desktop tool for converting raster images to SVG.
 It is a user-friendly wrapper around [`vtracer`](https://github.com/visioncortex/vtracer):  
 `vtracer` does the tracing, this app provides the UI, workflow, preview, and batch tools.
 
+![VTracer App Screenshot](./img.png)
+
 ## What You Can Do
 
 - Convert a single image to SVG
