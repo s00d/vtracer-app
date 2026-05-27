@@ -1,0 +1,19 @@
+README.md
+  s_90e062edef4bf2::t_e57916ffe5a42a 3-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1fc560ba2ccd97ac0a426edfee5649ed87d773cd",
+  "prompts": {},
+  "sessions": {
+    "s_90e062edef4bf2": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "12a49fcf-4099-4ff5-9e5b-517aea6dfbb1",
+        "model": "default"
+      },
+      "human_author": "Pavel Kuzmin <Virus191288@gmail.com>"
+    }
+  }
+}
