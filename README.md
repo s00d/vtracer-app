@@ -1,5 +1,12 @@
 # VTracer App
 
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue)](https://github.com/s00d/vtracer-app)
+[![License](https://img.shields.io/github/license/s00d/vtracer-app)](https://github.com/s00d/vtracer-app/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/v/release/s00d/vtracer-app)](https://github.com/s00d/vtracer-app/releases)
+[![Downloads](https://img.shields.io/github/downloads/s00d/vtracer-app/total)](https://github.com/s00d/vtracer-app/releases)
+[![Issues](https://img.shields.io/github/issues/s00d/vtracer-app)](https://github.com/s00d/vtracer-app/issues)
+[![Stars](https://img.shields.io/github/stars/s00d/vtracer-app?style=social)](https://github.com/s00d/vtracer-app/stargazers)
+
 VTracer App is a desktop tool for converting raster images to SVG.
 
 It is a user-friendly wrapper around [`vtracer`](https://github.com/visioncortex/vtracer):  
