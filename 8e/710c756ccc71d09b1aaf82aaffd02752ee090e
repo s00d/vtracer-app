@@ -1,0 +1,19 @@
+landing/vite.config.ts
+  s_90e062edef4bf2::t_a8c72494a9dfe1 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8e710c756ccc71d09b1aaf82aaffd02752ee090e",
+  "prompts": {},
+  "sessions": {
+    "s_90e062edef4bf2": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "12a49fcf-4099-4ff5-9e5b-517aea6dfbb1",
+        "model": "default"
+      },
+      "human_author": "Pavel Kuzmin <Virus191288@gmail.com>"
+    }
+  }
+}
