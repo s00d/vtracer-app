@@ -1,6 +1,8 @@
 name: Build and Release Tauri App
 
 on:
+  release:
+    types: [created, published]
   workflow_dispatch:
 
 jobs:
@@ -102,9 +104,9 @@ jobs:
           APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
         with:
-          tagName: app-v__VERSION__
+          tagName: ${{ github.event.release.tag_name || 'app-v__VERSION__' }}
           appName: vtracer-app_${{ matrix.os }}
-          releaseName: Release v__VERSION__
+          releaseName: ${{ github.event.release.name || 'Release v__VERSION__' }}
           releaseBody: See the assets to download this version and install.
           releaseDraft: false
           prerelease: false
